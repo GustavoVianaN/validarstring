@@ -2,15 +2,18 @@ import java.util.Scanner;
 
 public class Documento {
     public void Documento(){
+    // s
     System.out.println("Digite a string inicial: ");
     Scanner stringInicialScanner = new Scanner(System.in);
     String stringInicial = stringInicialScanner.nextLine();
+    // t
     System.out.println("Digite a string desejada: ");
     Scanner stringDesejada = new Scanner(System.in);
     String stringDesejadas = stringDesejada.nextLine();
+    // k
     System.out.println("Digite o número de operações: ");
     Scanner input = new Scanner(System.in);
-    int number1;        //soma de number1 e number2
+    int number1;       
     number1 = input.nextInt();
     int contador = -1;
     int Tamanho;
@@ -68,6 +71,5 @@ public class Documento {
         }
 
     }
-
 }
 }
